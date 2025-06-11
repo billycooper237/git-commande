@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="styles/application.css">
+    </head>
+    <body>
+        <head>
+            <div class="container header">
+                <a href="index.html" class="logo">course</a>
+                <nav class="nav">
+                    <ul>
+                        <li><a class="link" href="index.html">Acceuil</a></li>
+                        <li><a class="link" href="creer.html">creer une liste de course</a></li>
+                        <li><a class="link" href="liste.html">consulter la liste des courses</a></li>
+                        <li><a class="link" href="contact.html">contact</a></li>
+
+                    </ul>
+                </nav>
+                
+            </div>
+        </head>
+           
+       <div>
+
+            <h1 class="titre">Contact</h1>
+            
+            <form class="formulaire">
+                <div class="form-group">
+                    <label for="monsieur">Civilite</label>
+                    <div class="monsieur">
+                        <label for="monsieur">
+                            <input id="monsieur" type="radio" name="civilite" class="input">
+                            monsieur
+                            </label>
+                        <label for="madame">
+                            <input id="madame" type="radio" name="civilite" class="input">
+                            Madame
+                        </label>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="firstName">votre prenom</label>
+                    <input id="firstName" type="texte" name="firstName" class="input" placeholder="votre prenom">
+                </div>
+                <div class="form-group">
+                    <label for="lastName">votre nom</label>
+                    <input id="lastName" type="texte" name="lastName" class="input" placeholder="votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email">votre email</label>
+                    <input id="email" type="email" name="email" class="input" placeholder="votre email">
+                </div>
+                <div class="form-group">
+                    <label for="message">votre message</label>
+                    <textarea rows="5" name="message" id="message"></textarea>
+                </div>
+                <button class="button" type="submit">Transmettre</button>
+            </form>
+       </div>
+
+       <button type="button" class="btn-contact">
+            Contactez nous
+       </button>
+    </body>
+</html>
